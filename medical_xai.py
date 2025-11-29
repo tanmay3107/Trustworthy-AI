@@ -11,7 +11,7 @@ import os
 # 1. SETUP
 # Point this to an image you want to test (e.g., a TB or Pneumonia image from your dataset)
 # Example: r"D:\datasets\chest x-ray\test\pneumonia\person1_virus_6.jpeg"
-IMG_PATH = r"D:\datasets\chest x-ray\test\COVID19\COVID19(479).jpeg" 
+IMG_PATH = r"D:\datasets\chest x-ray\test\COVID19\COVID19(479).jpg" 
 
 # Your saved model file
 MODEL_PATH = "medical_resnet_4class.pth"
