@@ -1,0 +1,51 @@
+# ---------------------------------
+# 1. SECURITY (Crucial)
+# ---------------------------------
+.env
+.env.local
+secrets.json
+api_keys.py
+
+# ---------------------------------
+# 2. DATASETS (Don't upload massive files)
+# ---------------------------------
+medical_pdfs/
+chest_x_ray/
+chest_xray/
+datasets/
+*.zip
+*.tar.gz
+
+# ---------------------------------
+# 3. AI MODELS & CHECKPOINTS
+# ---------------------------------
+# PyTorch weights can be 100MB+
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# TensorFlow Lite (Optional: Keep if <100MB, Ignore if large)
+# *.tflite
+
+# HuggingFace Local Cache (If generated)
+models/
+tokenizers/
+
+# ---------------------------------
+# 4. PYTHON SYSTEM FILES
+# ---------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# ---------------------------------
+# 5. IDE SETTINGS (Keep your repo clean)
+# ---------------------------------
+.vscode/
+.idea/
+*.swp
